@@ -140,7 +140,7 @@ ip link show ens4 | grep link/ether
 `0c:5c:37:d1:00:00`  
 
 **Node 3**  
-`0c:a9:37:ed:00:00`  
+`0c:07:b3:92:00:00`  
 
 ### Définir une IP statique sur les trois machines
 
@@ -215,11 +215,11 @@ ip a
 **IP Node 3**  
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:07:b3:92:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.3/24 brd 10.1.1.255 scope global ens4
        valid_lft forever preferred_lft forever
-    inet6 fe80::ea9:37ff:feed:0/64 scope link
+    inet6 fe80::e07:b3ff:fe92:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -441,11 +441,11 @@ sudo ifup ens4
 
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:07:b3:92:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.12/24 brd 10.1.1.255 scope global dynamic ens4
        valid_lft 598sec preferred_lft 598sec
-    inet6 fe80::ea9:37ff:feed:0/64 scope link
+    inet6 fe80::e07:b3ff:fe92:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -564,11 +564,11 @@ ip a
     inet6 ::1/128 scope host noprefixroute
        valid_lft forever preferred_lft forever
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:07:b3:92:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.17/24 brd 10.1.1.255 scope global dynamic ens4
        valid_lft 546sec preferred_lft 546sec
-    inet6 fe80::ea9:37ff:feed:0/64 scope link
+    inet6 fe80::e07:b3ff:fe92:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 **  Wireshark
