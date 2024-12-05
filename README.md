@@ -13,7 +13,7 @@ ip a
 `0c:f0:c9:a4:00:00`  
 
 **Node 2**  
-`0c:5c:37:d1:00:00`  
+`0c:a9:37:ed:00:00`  
 
 ### Définir une IP statique sur les deux machines
 
@@ -88,11 +88,11 @@ ip a
 **Node 2**
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:5c:37:d1:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.2/24 brd 10.1.1.255 scope global ens4
        valid_lft forever preferred_lft forever
-    inet6 fe80::e5c:37ff:fed1:0/64 scope link
+    inet6 fe80::ea9:37ff:feed:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -204,11 +204,11 @@ ip a
 **IP Node 2**  
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:5c:37:d1:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.2/24 brd 10.1.1.255 scope global ens4
        valid_lft forever preferred_lft forever
-    inet6 fe80::e5c:37ff:fed1:0/64 scope link
+    inet6 fe80::ea9:37ff:feed:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -427,11 +427,11 @@ sudo ifup ens4
 
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:5c:37:d1:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.11/24 brd 10.1.1.255 scope global dynamic ens4
        valid_lft 587sec preferred_lft 587sec
-    inet6 fe80::e5c:37ff:fed1:0/64 scope link
+    inet6 fe80::ea9:37ff:feed:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -490,11 +490,11 @@ ip a
 
 ```plaintext
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:f0:c9:a4:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.219/24 brd 10.1.1.255 scope global dynamic ens4
        valid_lft 43133sec preferred_lft 43133sec
-    inet6 fe80::e9e:37ff:fe0:0/64 scope link
+    inet6fe80::ef0:c9ff:fea4:0/64scope link
        valid_lft forever preferred_lft forever
 ```
 
@@ -540,11 +540,11 @@ ip a
     inet6 ::1/128 scope host noprefixroute
        valid_lft forever preferred_lft forever
 2: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 0c:5c:37:d1:00:00 brd ff:ff:ff:ff:ff:ff
+    link/ether 0c:a9:37:ed:00:00 brd ff:ff:ff:ff:ff:ff
     altname enp0s4
     inet 10.1.1.16/24 brd 10.1.1.255 scope global dynamic ens4
        valid_lft 597sec preferred_lft 597sec
-    inet6 fe80::e5c:37ff:fed1:0/64 scope link
+    inet6 fe80::ea9:37ff:feed:0/64 scope link
        valid_lft forever preferred_lft forever
 ```
 
