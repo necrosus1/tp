@@ -89,12 +89,15 @@ RHOST:PORT  : 127.0.0.1:20019
 MTU         : 1500
 ```
 
-Commande : `ping 10.3.2.1`
+Commande : ` ping 10.3.2.1`
 
 ```plaintext
-84 bytes from 10.3.2.1 icmp_seq=1 ttl=63 time=29.754 ms
-84 bytes from 10.3.2.1 icmp_seq=2 ttl=63 time=22.250 ms
-84 bytes from 10.3.2.1 icmp_seq=3 ttl=63 time=13.515 ms
+84 bytes from 10.3.2.1 icmp_seq=1 ttl=63 time=34.889 ms
+84 bytes from 10.3.2.1 icmp_seq=2 ttl=63 time=23.320 ms
+84 bytes from 10.3.2.1 icmp_seq=3 ttl=63 time=21.801 ms
+84 bytes from 10.3.2.1 icmp_seq=4 ttl=63 time=22.393 ms
+84 bytes from 10.3.2.1 icmp_seq=5 ttl=63 time=21.761 ms
+
 ```
 
 ### R1
@@ -110,22 +113,22 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 88/108/152 ms
 
 ### PC2
 
-Commande : `ping 1.1.1.1`
+Commande : `ping 8.8.8.8`
 
 ```plaintext
-84 bytes from 1.1.1.1 icmp_seq=1 ttl=52 time=121.057 ms
-84 bytes from 1.1.1.1 icmp_seq=2 ttl=52 time=82.458 ms
-84 bytes from 1.1.1.1 icmp_seq=3 ttl=52 time=154.460 ms
+84 bytes from 8.8.8.8 icmp_seq=1 ttl=52 time=121.057 ms
+84 bytes from 8.8.8.8 icmp_seq=2 ttl=52 time=82.458 ms
+84 bytes from 8.8.8.8 icmp_seq=3 ttl=52 time=154.460 ms
 ```
 
 ### PC3
 
-Commande : `ping 1.1.1.1`
+Commande : `ping 8.8.8.8`
 
 ```plaintext
-84 bytes from 1.1.1.1 icmp_seq=1 ttl=52 time=85.677 ms
-84 bytes from 1.1.1.1 icmp_seq=2 ttl=52 time=79.487 ms
-84 bytes from 1.1.1.1 icmp_seq=3 ttl=52 time=145.795 ms
+84 bytes from 8.8.8.8 icmp_seq=1 ttl=52 time=85.677 ms
+84 bytes from 8.8.8.8 icmp_seq=2 ttl=52 time=79.487 ms
+84 bytes from 8.8.8.8 icmp_seq=3 ttl=52 time=145.795 ms
 ```
 
 
