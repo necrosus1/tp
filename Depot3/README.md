@@ -13,7 +13,8 @@ Commande : `ping 10.3.2.1`
 84 bytes from 10.3.2.1 icmp_seq=5 ttl=62 time=42.960 ms
 ```
 
-## Wireshark : Afficher les adresses MAC des routeurs
+## Wireshark = ping_partie1.pcap
+##Afficher les adresses MAC des routeurs
 
 ### R1
 Commande : `show arp`
